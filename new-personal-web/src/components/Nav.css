@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:1.5rem 7rem 1.5rem 7rem;
+}
+.nav-logo{
+    font-size: 1.5rem;
+}
+.nav-links{
+    display:flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+}
+li {
+    list-style: none;
+    font-size:1.2rem;
+    transition: transform 0.3s ease;
+}
+li:hover {
+    color: grey;
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.contact-btn {
+    background-color: var(--orange);
+    padding: 10px;
+    border-radius: 25px;
+    width: 80px;
+    text-align: center;
+}

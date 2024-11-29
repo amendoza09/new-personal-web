@@ -1,0 +1,48 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+:root{
+  --white: #FCF3E3;
+  --green: #809365;
+  --orange: #F29F05;
+}
+body {
+  height:80vh;
+  background-color: var(--white);
+}
+.container {
+  padding:2rem;
+  max-width:1200px;
+  margin: 0 auto;
+  position: relative;
+}
+h1, h2{
+  font-family: 'DM Serif Display', serif;
+  color: var(--green);
+}
+/* Fade transition classes */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 800ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 800ms ease-in-out;
+}

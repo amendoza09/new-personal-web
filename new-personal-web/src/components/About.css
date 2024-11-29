@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    height: 75vh;
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items:center;
+}
+.abt-img {
+    height: 500px;
+    width: auto;
+    margin: 4rem;
+    border-radius: 25px;
+}
+.abt-title{
+    margin-bottom: 2rem;
+    font-size: 40px;
+}
