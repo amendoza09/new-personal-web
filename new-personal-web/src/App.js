@@ -12,7 +12,7 @@ import './App.css';
 function App() {
 
   return (
-    <Router>
+    <Router basename="/new-personal-web">
       <Nav />
       <div className="container">
       <TransitionGroup>

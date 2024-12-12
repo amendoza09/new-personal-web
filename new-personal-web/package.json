@@ -2,7 +2,7 @@
   "name": "new-personal-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amendoza09.github.io/new-personal-web/",
+  "homepage": "https://amendoza09.github.io/new-personal-web",
   "dependencies": {
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
