@@ -7,7 +7,9 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import MobileNav from './components/MobileNav'
 import './App.css';
+import './media-queries.css';
 
 function AnimatedRoutes() {
   const location = useLocation(); // Get the current location
@@ -34,8 +36,9 @@ function App() {
   return (
     <div>
       <Nav />
+      <MobileNav />
       <div className="container">
-        <AnimatedRoutes /> {/* Use the animated routes here */}
+        <AnimatedRoutes />
       </div>
       <Footer />
     </div>

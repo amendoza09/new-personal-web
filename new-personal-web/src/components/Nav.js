@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Nav.css';
 
 const Nav = () => (
-    <nav className="nav">
+    <nav id="desktop-nav" className="nav">
         <h1 className="nav-logo"><Link to="/">Antonios Website</Link></h1>
         <ul className="nav-links">
             <li><Link to="/">Home</Link></li>
