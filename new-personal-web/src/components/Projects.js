@@ -28,6 +28,8 @@ const Projects = () => {
             libraries:'Tools: React, Node.JS, MongoDB',
             description: 'Users can create an account and track their progress on their fitness journey and share workouts for other users to see. As you wokrout, you can level up your charcter and unlock stronger ones as you progress in your personal journey. The challenge of this project was designing the UI to make it easy to naviagte along with tracking user progress. Another challenge was fetching each uploaded workout and displaying it on a feed page for users to see.',
             link: 'https://github.com/oscarg111/Web-Programming-Project',
+            externalLink: 'https://levelup-fitness.netlify.app/',
+            linkName: 'Check it out'
         },
         {
             title: 'Splunk Dashbaord',
@@ -45,7 +47,7 @@ const Projects = () => {
             description: 'Students at UGA can create an account and upload events to Bulldog Buddies. Our RSVP system allows for users to see how many people will be attending their event as well as other events posted by students. The challenge of this project was designing the backend to attach events to the specific user and creating a system that made it easy for the developers to pull information from the database and display on the frontend.',
             link: 'https://github.com/rishivandhan/BullDogBuddies',
             externalLink: 'https://rishivandhan.github.io/BullDogBuddies/',
-            linkName: 'Visit Website'
+            linkName: 'Check it out'
         },
         {
             title: 'Command Shell',
