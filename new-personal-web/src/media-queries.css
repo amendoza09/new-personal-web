@@ -116,14 +116,19 @@
     .coding-skills {
         padding-top: 10px;
     }
+    .carousel-container {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
     .project-card{
-        height: 25rem;
-        width: 24rem;
+        height: 29rem;
+        width: 20rem;
         padding-top: 1rem;
     }
     .proj-image {
-        width: auto;
         height: 400px;
+        width: 300px;
+        object-fit: cover;
     }
     .proj-description{
         flex-direction: column;
@@ -159,5 +164,6 @@
     }
     .send-btn{
         height:3rem;
+        font-size: 12px;
     }
 }
