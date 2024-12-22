@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/new-personal-web/static/css/main.74d15cbd.css",
-    "main.js": "/new-personal-web/static/js/main.da370682.js",
+    "main.css": "/new-personal-web/static/css/main.b45767e4.css",
+    "main.js": "/new-personal-web/static/js/main.795bf265.js",
     "static/media/abt-pic.jpg": "/new-personal-web/static/media/abt-pic.794e0d70a1800790b8f7.jpg",
     "static/media/terminal-project.jpeg": "/new-personal-web/static/media/terminal-project.f3396fdbd7c6be155360.jpeg",
     "static/media/profile-pic.jpg": "/new-personal-web/static/media/profile-pic.ccb3aaf8661b346991b6.jpg",
     "static/media/Personal-web-picture.png": "/new-personal-web/static/media/Personal-web-picture.221dae1cb76c30777a02.png",
+    "static/media/CS Resume 2024.pdf": "/new-personal-web/static/media/CS Resume 2024.08d75aa849f54b2a1923.pdf",
     "static/media/uga.png": "/new-personal-web/static/media/uga.a4cf66e795586a8235bc.png",
     "static/media/BulldogBuddies-square.png": "/new-personal-web/static/media/BulldogBuddies-square.bb88670b50139546ccc0.png",
     "static/media/chess-game.jpeg": "/new-personal-web/static/media/chess-game.6f40787d6dd1bbb1918e.jpeg",
@@ -17,11 +18,11 @@
     "static/media/slick.ttf": "/new-personal-web/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/new-personal-web/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/new-personal-web/index.html",
-    "main.74d15cbd.css.map": "/new-personal-web/static/css/main.74d15cbd.css.map",
-    "main.da370682.js.map": "/new-personal-web/static/js/main.da370682.js.map"
+    "main.b45767e4.css.map": "/new-personal-web/static/css/main.b45767e4.css.map",
+    "main.795bf265.js.map": "/new-personal-web/static/js/main.795bf265.js.map"
   },
   "entrypoints": [
-    "static/css/main.74d15cbd.css",
-    "static/js/main.da370682.js"
+    "static/css/main.b45767e4.css",
+    "static/js/main.795bf265.js"
   ]
 }
