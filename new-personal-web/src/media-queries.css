@@ -122,8 +122,8 @@
         padding-top: 1rem;
     }
     .proj-image {
-        width: 300px;
-        height: 375px;
+        width: auto;
+        height: 400px;
     }
     .proj-description{
         flex-direction: column;
