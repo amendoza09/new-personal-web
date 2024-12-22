@@ -13,7 +13,7 @@
     gap: 1.5rem;
     align-items: center;
 }
-li {
+.nav-links li {
     list-style: none;
     font-size:1.2rem;
     transition: transform 0.3s ease;
@@ -22,7 +22,7 @@ li:hover {
     color: grey;
     transform: scale(1.1);
 }
-a {
+.nav-links a {
     text-decoration: none;
     color: black;
 }
@@ -33,7 +33,23 @@ a {
     width: 80px;
     text-align: center;
 }
-.hamburger-icon{
-    height: 50px;
+.mobile-menu-icon {
+    display: none;
+    font-size: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.nav-links-mobile {
+    display: none;
+    height: auto;
     width: auto;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    padding: 15px;
+    border-radius: 8px;
+    list-style: none;
+    align-items: center;
 }

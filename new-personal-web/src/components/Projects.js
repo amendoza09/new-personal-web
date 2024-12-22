@@ -75,54 +75,56 @@ const Projects = () => {
 
     return (
     <section className="projects transition-fade">
-        <h2 className="pg-title">My Projects & Experience</h2>
-        <div className="experience-skills-container">
-            <div className="experience-container">
-                <h2>Experience</h2>
-                <TimelineComponent />
-            </div>
-            <div className="skills-container">
-                <div className="hard-skills">
-                    <h2>Coding Skills</h2>
-                    <div className="coding-skills">
-                        <ul className="coding-list">
-                            <li className="skill-js">JavaScript</li>
-                            <li className="skill-py">Python</li>
-                            <li className="skill-java">Java</li>
-                            <li className="skill-sql">SQL</li>
-                            <li className="skill-c">C</li>
-                            <li className="skill-html">HTML/CSS</li>
-                        </ul>
+        <div className="projects-container">
+            <h2 className="pg-title">My Projects & Experience</h2>
+            <div className="experience-skills-container">
+                <div className="experience-container">
+                    <h2>Experience</h2>
+                    <TimelineComponent />
+                </div>
+                <div className="skills-container">
+                    <div className="hard-skills">
+                        <h2>Coding Skills</h2>
+                        <div className="coding-skills">
+                            <ul className="coding-list">
+                                <li className="skill-js">JavaScript</li>
+                                <li className="skill-py">Python</li>
+                                <li className="skill-java">Java</li>
+                                <li className="skill-sql">SQL</li>
+                                <li className="skill-c">C</li>
+                                <li className="skill-html">HTML/CSS</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>  
-        <h2 className="proj-title">My Projects</h2>
-        <div className="carousel-container">
-            <div className="project-carousel">
-                {projects.map((project, index) => (
-                    <div key={index} className="project-card">
-                        <h3 className="proj-title">{project.title}</h3>
-                        <div className="image-container"> 
-                            <img className="proj-image" src={project.img} alt="project picture"/>
-                            <div className="proj-description">
-                                <p>{project.language}</p>
-                                <p>{project.libraries}</p>
-                                <p>{project.description}</p>
+            </div>  
+            <h2 className="proj-title">My Projects</h2>
+            <div className="carousel-container">
+                <div className="project-carousel">
+                    {projects.map((project, index) => (
+                        <div key={index} className="project-card">
+                            <h3 className="proj-title">{project.title}</h3>
+                            <div className="image-container"> 
+                                <img className="proj-image" src={project.img} alt="project picture"/>
+                                <div className="proj-description">
+                                    <p>{project.language}</p>
+                                    <p>{project.libraries}</p>
+                                    <p>{project.description}</p>
+                                </div>
                             </div>
-                        </div>
-                        {project.link && (
-                            <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                <img src={github} className="logo" alt="github-logo"/>
-                            </a>
-                        )}
-                        {project.externalLink && (
-                                <a href={project.externalLink} target="_blank" rel="noopener noreferrer">
-                                    <button className="external-link">{project.linkName}</button>
+                            {project.link && (
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                    <img src={github} className="logo" alt="github-logo"/>
                                 </a>
                             )}
-                    </div> 
-                ))}
+                            {project.externalLink && (
+                                    <a href={project.externalLink} target="_blank" rel="noopener noreferrer">
+                                        <button className="external-link">{project.linkName}</button>
+                                    </a>
+                                )}
+                        </div> 
+                    ))}
+                </div>
             </div>
         </div>
     </section>

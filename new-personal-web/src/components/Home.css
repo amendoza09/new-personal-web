@@ -4,6 +4,10 @@
     align-items: center;
     text-align:center;
     height: 75vh;
+    padding:2rem;
+    max-width:1200px;
+    margin: 0 auto;
+    position: relative;
 }
 .home-container {
     display: flex;

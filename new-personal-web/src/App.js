@@ -7,7 +7,6 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import MobileNav from './components/MobileNav'
 import './App.css';
 import './media-queries.css';
 
@@ -36,8 +35,7 @@ function App() {
   return (
     <div>
       <Nav />
-      <MobileNav />
-      <div className="container">
+      <div>
         <AnimatedRoutes />
       </div>
       <Footer />

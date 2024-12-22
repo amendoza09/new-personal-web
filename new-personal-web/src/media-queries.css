@@ -1,78 +1,76 @@
-@media screen and (max-width: 1400px) {
-    #mobile-nav {
-        display: none;
-    }
-    section{
-        height: 100vh;
-        margin-bottom: 6rem;
-    }
-    footer {
-        height: fit-content;
-        margin-bottom: 0;
-    }
-}
-
 @media screen and (max-width: 1200px) {
-    #desktop-nav {
-        display: none;
-    }
-    nav {
-        height: fit-content;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        gap: 5rem;
-        justify-content: right;
-        width: 100%;
-    }
-    #mobile-nav {
-        display: flex;
-        position: fixed;
-        padding: 10px;
-        width: 95%;
-        z-index: 1;
-    }
-    .nav-links.open {
-        display: block; /* Ensure this opens the menu */
-    }
 
 }
 
-@media screen and (max-width: 600px) {
-    #desktop-nav {
+@media screen and (max-width: 800px) {
+    .nav {
+        position:static;
+    }
+    .nav-links {
         display: none;
     }
-    nav {
-        height: fit-content;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        gap: 5rem;
-        justify-content: right;
-        width: 100%;
-    }
-    #mobile-nav {
+    .nav-links-mobile{
         display: flex;
-        position: fixed;
-        padding: 10px;
-        width: 95%;
-        z-index: 1;
-    }
-    .mobile-nav-links{
-        display: none;
         flex-direction: column;
-        list-style: none;
+        position: absolute;
+        backdrop-filter: blur(10px);
+        gap: 12px;
+        padding: 35px;
+        border-radius: 8px;
+        z-index: 1;
+        font-size: 20px;
+    }
+    .mobile-nav-links a {
+        margin: 10px 0;
+        text-decoration: none;
+        text-align: center;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .home{
+        height: auto;
+        position: relative;
+    }
+    .home-container{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        gap: 50px;
+    }
+    .headshot {
+        height: 400px;
+    }
+    .about {
+        height: auto;
+        position: relative;
+    }
+    .about-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 0 25px 0 25px;
+    }
+    .abt-img{
         margin: 0;
-        padding: 0;
-        opacity: 0;
-        transform: translateY(-10px);
-        transition: opacity 0.3s ease, transform 0.3s ease;
     }
-    .mobile-nav-links.open {
-        display: flex;
-        opacity: 1;
-        transform: translateY(0);
+    .projects {
+        height: auto;
+        position: relative;
     }
-    .mobile-nav-links.closed {
-        display: none;
+    .projects-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 0 25px 0 25px;
     }
-
+    .experience-skills-container {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+    .experience-container {
+        width: 50vw;
+        align-items: center;
+    }
 }
