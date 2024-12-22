@@ -140,15 +140,15 @@
     .contact-container {
         flex-direction: column;
         text-align: center;
-        gap: 20px;
         padding: 0 25px 0 25px;
     }
     .external-links{
         flex-direction: column;
         gap: .5rem;
+        margin-bottom: 20px;
     }
     .form-container{
-        width: 350px;
+        width: 325px;
         margin: 0;
     }
     input,textarea {
