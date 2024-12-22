@@ -134,7 +134,7 @@
         gap: 0;
     }
     .project-carousel {
-        height: 75vh;
+        height: 80vh;
     }
     .contact {
         height: auto;
@@ -157,5 +157,7 @@
     input,textarea {
         width: 15rem;
     }
-
+    .send-btn{
+        height:3rem;
+    }
 }
