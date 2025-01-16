@@ -10,18 +10,38 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 export default function TimelineComponent() {
   return (
     <Timeline className="timeline-component">
-        <TimelineItem>
-            <TimelineOppositeContent >
-                August 2024
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-                <TimelineDot variant="outlined" color="primary"/>
+      <TimelineItem>
+        <TimelineOppositeContent >
+          January 2024
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="primary"/>
           <TimelineConnector />
         </TimelineSeparator>
-            <TimelineContent>UGA Directed Study | Researcher</TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-            <TimelineOppositeContent>
+        <TimelineContent>Revature | Full Stack Developer</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent >
+          December 2024
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="primary"/>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>Graduated University of Georgia | B.S in Computer Science</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent >
+          August 2024
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="primary"/>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>UGA Directed Study | Researcher</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent>
           June 2024
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -49,6 +69,26 @@ export default function TimelineComponent() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>UGA Hacks 8 | Full Stack Developer</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent>
+          January 2022
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="primary"/>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>University of Georgia | Computer Science major</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent>
+          August 2020
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot variant="outlined" color="primary"/>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>Georgia State University | Computer Science major</TimelineContent>
       </TimelineItem>
     </Timeline>
   );

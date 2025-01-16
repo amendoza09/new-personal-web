@@ -4,7 +4,7 @@ import "./Home.css";
 import headshot from './assets/profile-pic.jpg';
 import linkedin from './assets/linkedin.png';
 import github from './assets/github.png';
-import resume from './assets/CSResume2024.pdf';
+//import resume from './assets/CSResume2024.pdf';
 
 const Home = () => (
 
@@ -18,7 +18,7 @@ const Home = () => (
                 <h1 className="my-name">Antonio Mendoza</h1>
                 <h3>Computer Science Student at University of Georgia</h3>
                 <div className="btns">
-                    <a href={resume} target="_blank"><button className="link-btn">View CV</button></a>
+                    <a href="" target="_blank"><button className="link-btn">View CV</button></a>
                     <button className="link-btn"><Link to="/contact">Contact Me</Link></button>
                 </div>
                 <div>
