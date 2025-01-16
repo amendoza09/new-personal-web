@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import TimelineComponent from './Timeline';
 import './Projects.css';
 import github from './assets/github.png';
@@ -75,18 +75,23 @@ const Projects = () => {
         },
     ];
 
+    useEffect(() => {
+        const container = document.querySelector('.skills-container');
+        container.classList.add('loaded');
+    }, []);
+
     return (
     <section className="projects transition-fade">
         <div className="projects-container">
             <h2 className="pg-title">My Projects & Experience</h2>
             <div className="experience-skills-container">
                 <div className="experience-container">
-                    <h2>Experience</h2>
+                    <h2 className="skills-title">Experience</h2>
                     <TimelineComponent />
                 </div>
                 <div className="skills-container">
                     <div className="hard-skills">
-                        <h2>Coding Skills</h2>
+                        <h2 className="skills-title">Coding Skills</h2>
                         <div className="coding-skills">
                             <ul className="coding-list">
                                 <li className="skill-js">JavaScript</li>
