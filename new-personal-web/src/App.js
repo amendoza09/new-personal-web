@@ -7,6 +7,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ResumePage from './components/ResumePage';
 import './App.css';
 import './media-queries.css';
 
@@ -22,6 +23,7 @@ function AnimatedRoutes() {
       >
         <Routes location={location}> {/* Pass location here */}
           <Route path="/" element={<Home />} />
+          <Route path="/ResumePage" element={<ResumePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
