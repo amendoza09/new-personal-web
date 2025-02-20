@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/new-personal-web/static/css/main.925f3ffa.css",
-    "main.js": "/new-personal-web/static/js/main.7c24e1c3.js",
+    "main.js": "/new-personal-web/static/js/main.3523523d.js",
     "static/media/abt-pic.jpg": "/new-personal-web/static/media/abt-pic.794e0d70a1800790b8f7.jpg",
     "static/media/terminal-project.jpeg": "/new-personal-web/static/media/terminal-project.f3396fdbd7c6be155360.jpeg",
     "static/media/profile-pic.jpg": "/new-personal-web/static/media/profile-pic.ccb3aaf8661b346991b6.jpg",
+    "static/media/CSResume2025.pdf": "/new-personal-web/static/media/CSResume2025.c2d71f25b401f16fcf11.pdf",
     "static/media/Personal-web-picture.png": "/new-personal-web/static/media/Personal-web-picture.221dae1cb76c30777a02.png",
     "static/media/uga.png": "/new-personal-web/static/media/uga.a4cf66e795586a8235bc.png",
     "static/media/BulldogBuddies-square.png": "/new-personal-web/static/media/BulldogBuddies-square.bb88670b50139546ccc0.png",
@@ -18,10 +19,10 @@
     "static/media/slick.woff": "/new-personal-web/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/new-personal-web/index.html",
     "main.925f3ffa.css.map": "/new-personal-web/static/css/main.925f3ffa.css.map",
-    "main.7c24e1c3.js.map": "/new-personal-web/static/js/main.7c24e1c3.js.map"
+    "main.3523523d.js.map": "/new-personal-web/static/js/main.3523523d.js.map"
   },
   "entrypoints": [
     "static/css/main.925f3ffa.css",
-    "static/js/main.7c24e1c3.js"
+    "static/js/main.3523523d.js"
   ]
 }
