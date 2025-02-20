@@ -14,6 +14,7 @@
     "create-react-app": "^5.0.1",
     "css-loader": "^7.1.2",
     "email-js": "^2.0.3",
+    "emailjs": "^4.0.3",
     "emailjs-com": "^3.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

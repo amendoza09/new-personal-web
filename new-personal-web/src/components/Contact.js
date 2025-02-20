@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './Contact.css';
 import linkedin from './assets/linkedin.png';
 import email from './assets/email.png';
@@ -7,13 +7,15 @@ import emailjs from 'emailjs-com';
 
 const Contact = () => {
     const [formData, setFormData] = useState ({
-        name: '',
-        email: '',
-        message: '',
+        name: "",
+        email: "",
+        message: "",
     });
 
     const [isSent, setIsSent] = useState(false);
     const [error, setError] = useState(null);
+
+    const formRef = useRef();
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -23,21 +25,25 @@ const Contact = () => {
         }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-
-        emailjs.sendForm('service_ty4f7xj', 'service_ty4f7xj', e.target, 'umAsYB4JTgRP-RiWP')
-            .then((result) => {
-                console.log("Message sent successfully!");
-                setIsSent(true);
-                setError(null);
-                setFormData({ name: '', email: '', message: ''});
-            })
-            .catch((error) => {
+        try {
+            await emailjs.sendForm(
+                'service_ty4f7xj', 
+                'template_hygz0jj',
+                formRef.current,
+                "umAsYB4JTgRP-RiWP"
+            );
+            console.log("Message sent successfully!");
+            setIsSent(true);
+            setError(null);
+            setFormData({ name: '', email: '', message: ''});
+        }
+        catch(error) {
                 console.error("Error sending message");
                 setError("Failed to send message. Please try agian later.")
-            })
-    }
+        }
+    };
 
     return (
         <section className="contact transition-fade">
@@ -55,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div className="form-container">
                     <h3 className="form-title">Or send a message</h3>
-                    <form onSubmit={handleSubmit}>
+                    <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} placeholder="Your Name" required />
                         <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Your Email" required />
                         <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Your Message" required />
