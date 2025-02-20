@@ -5,7 +5,7 @@ import headshot from './assets/profile-pic.jpg';
 import linkedin from './assets/linkedin.png';
 import github from './assets/github.png';
 
-const resume = process.env.PUBLIC_URL + "/CSResume2025.pdf";
+const resume = "../../public/CSResume2025.pdf";
 
 const Home = () => (
 
