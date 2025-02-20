@@ -17,7 +17,7 @@ const Home = () => (
                 <h1 className="my-name">Antonio Mendoza</h1>
                 <h3>Computer Science Student at University of Georgia</h3>
                 <div className="btns">
-                    <a href="https://https://amendoza09.github.io/assets/CSResume2025.pdf" target="_blank">
+                    <a href="https://amendoza09.github.io/assets/CSResume2025.pdf" target="_blank">
                         <button className="link-btn">View CV</button>
                     </a>
                     <button className="link-btn"><Link to="/contact">Contact Me</Link></button>
