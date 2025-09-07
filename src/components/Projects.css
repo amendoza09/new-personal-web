@@ -6,6 +6,7 @@
     max-width:1200px;
     margin: 0 auto;
     position: relative;
+    
 }
 .pg-title{
     font-size: 40px;
@@ -91,15 +92,7 @@
     -webkit-mask-image: linear-gradient(to right, #0000, #000 5%, #000 95%,#0000);
 }
 
-.scroll-btn {
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: 0 0.5rem;
-    position:absolute;
-    transform: translate(-50%);
-    z-index:  1;
-}
+
 .image-container {
     position: relative;
     margin: 0;

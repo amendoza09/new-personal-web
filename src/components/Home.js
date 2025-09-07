@@ -15,10 +15,16 @@ const Home = () => (
             <div className="left-side">
                 <h3>Hello my name</h3>
                 <h1 className="my-name">Antonio Mendoza</h1>
-                <h3>Computer Science Student at University of Georgia</h3>
+                <h3>Bachelor of Science in Computer Science from University of Georgia</h3>
                 <div className="btns">
-                    <button className="link-btn"><Link to="/ResumePage">View CV</Link></button>
-                    <button className="link-btn"><Link to="/contact">Contact Me</Link></button>
+                    <button className="link-btn">
+                        <a href="/AntoniosResume.pdf" target="_blank">
+                            View CV
+                        </a>
+                    </button>
+                    <button className="link-btn">
+                        <Link to="/contact">Contact Me</Link>
+                    </button>
                 </div>
                 <div>
                     <a href="https://github.com/amendoza09" target="_blank"><img className="logo" src={github} alt="github button"/></a>
